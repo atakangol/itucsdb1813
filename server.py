@@ -9,7 +9,7 @@ from dbinit import INIT_STATEMENTS
 from base64 import b64encode
 
 app = Flask(__name__)
-app.debug = True
+app.debug = False
 app.secret_key = "pnBM(@?&#p]l~eI%L&$@#9f)T^uK7U"
 WTF_CSRF_SECRET_KEY = "N4<*$83/[[{)ZO&X2yL_qN68+{;;Xo"
 
